@@ -4,9 +4,21 @@ namespace CyberHack
 {
     public class Program
     {
+        
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP!");
+            SystemType target;
+            Hacktool tool;
+
+            string request1 = Console.ReadLine();
+            string request2 = Console.ReadLine();
+            
+
+            if (request1 == CorporateServer)
+            {
+                
+            }
+
         }
     }
 }
