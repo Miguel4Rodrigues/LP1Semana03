@@ -4,7 +4,7 @@ namespace CyberHack
 {
     public class Program
     {
-        
+
         private static void Main(string[] args)
         {
             SystemType target;
@@ -14,7 +14,7 @@ namespace CyberHack
             string request2 = Console.ReadLine();
             
 
-            if (request1 == CorporateServer)
+            if (request1 == SystemType.CorporateServer)
             {
                 
             }
